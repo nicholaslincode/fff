@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+}
+
+body {
+  background: linear-gradient(#cdb4db, #a2d2ff);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 3vh 3vw;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 450;
+  margin-bottom: 2vh;
+}
+
+header h2 {
+  font-weight: 800;
+  margin-bottom: 2vh;
+  line-height: 1.25;
+}
+
+.news-item-text {
+  margin-left: 3vw;
+}
+
+#news,
+#history {
+  margin: 20px 0px;
+}
+
+a {
+  color: #f72585;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+  font-size: x-small;
+}
