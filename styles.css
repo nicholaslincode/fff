@@ -33,6 +33,11 @@ header h2 {
   line-height: 1.25;
 }
 
+section {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
 .news-item-text {
   margin-left: 3vw;
   margin-bottom: 3vh;
@@ -53,8 +58,18 @@ a:hover {
   font-weight: 700;
 }
 
+ul {
+  margin-left: 3vw;
+  margin-bottom: 3vh;
+}
+
+.italics {
+  font-style: italic;
+}
+
 footer {
+  padding-top: 5vh;
   text-align: center;
   font-size: x-small;
-  margin-top: auto;
+  padding-bottom: 2vh;
 }
